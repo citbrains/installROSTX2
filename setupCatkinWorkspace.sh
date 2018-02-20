@@ -19,7 +19,7 @@ mkdir -p "$DEFAULTDIR"/src
 cd "$DEFAULTDIR"/src
 catkin_init_workspace
 cd "$DEFAULTDIR"
-catkin_make
+catkin build
 
 
 #setup ROS environment variables
