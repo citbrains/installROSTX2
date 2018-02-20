@@ -33,3 +33,4 @@ grep -q -F 'source /opt/ros/kinetic/setup.bash' ~/.bashrc || echo "source /opt/r
 source ~/.bashrc
 # Install rosinstall
 sudo apt-get install python-rosinstall -y
+sudo apt-get install python-catkin-tools -y
